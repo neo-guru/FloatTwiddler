@@ -1,14 +1,14 @@
 # FloatTwiddler
-FloatTwiddler is a simple ans small library for converting Float values in smaller data types
+FloatTwiddler is a simple and small library for converting Float values in smaller data types
 
-FloatTwiddler is library in development which i Created for reading and storing MODBUS floating point registers with Arduino, for now it only has two functions:
+FloatTwiddler is library in development which I created for reading and storing MODBUS floating point uint16_t registers with Arduino, for now it only has two functions:
 
 - Converting Float value in two unsigned int varibales
 - Converting two unsigned int variables to Float
 
 # Usage
 
-To convert Flaoting point variable in two unsigned integers use function:
+To convert Floating point variable in two unsigned integers use function:
 ```c
 FloatToUint(FloatNumber, &uintHigh, &uintLow);
 ```
@@ -23,6 +23,6 @@ UintToFloat(uintHigh, uintLow, &FloatNumber);
 ```
 
 Where: 
-- uintHigh is variable where High order bytes
-- uintLow is variable where Low order bytes
+- uintHigh is variable where High order bytes are stored
+- uintLow is variable where Low order bytes are stored
 - FloatNumber is variable for holding converted Float

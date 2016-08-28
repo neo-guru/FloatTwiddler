@@ -1,5 +1,5 @@
 # FloatTwiddler
-FloatTwiddler is a simple and small library for converting Float values in smaller data types
+FloatTwiddler is a simple and small Arduino library for converting Float values in smaller data types
 
 FloatTwiddler is library in development which I created for reading and storing MODBUS floating point uint16_t registers with Arduino, for now it only has two functions:
 

@@ -9,9 +9,9 @@ FloatTwiddler is library in development which i Created for reading and storing 
 # Usage
 
 To convert Flaoting point variable in two unsigned integers use function:
-
-FloatToUint(FloatNumber, &uintHigh, &uintLow);
-
+```cpp
+  FloatToUint(FloatNumber, &uintHigh, &uintLow);
+```
 Where: 
 - FloatNumber is your desired Floating point variable for conversion
 - uintHigh is variable for storing your High order bytes

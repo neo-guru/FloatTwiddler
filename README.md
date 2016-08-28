@@ -17,7 +17,7 @@ Where:
 - uintHigh is variable for storing your High order bytes
 - uintLow is variable for storing your Low order bytes
 
-To convert Floating point variable in two unsigned integers use function:
+To convert two unsigned integers to Floating point variable use function:
 ```c
 UintToFloat(uintHigh, uintLow, &FloatNumber);
 ```

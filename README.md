@@ -10,7 +10,7 @@ FloatTwiddler is library in development which i Created for reading and storing 
 
 To convert Flaoting point variable in two unsigned integers use function:
 ```c
-  FloatToUint(FloatNumber, &uintHigh, &uintLow);
+FloatToUint(FloatNumber, &uintHigh, &uintLow);
 ```
 Where: 
 - FloatNumber is your desired Floating point variable for conversion
@@ -18,8 +18,9 @@ Where:
 - uintLow is variable for storing your Low order bytes
 
 To convert Flaoting point variable in two unsigned integers use function:
-
+```c
 UintToFloat(uintHigh, uintLow, &FloatNumber);
+```
 
 Where: 
 - uintHigh is variable where High order bytes
